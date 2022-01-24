@@ -11,8 +11,8 @@ const routes: RouteConfig[] = [
       minHeight: 600,
     },
     createConfig: {
-      showSidebar: true,
-      showCustomTitlebar: true,
+      showSidebar: true, // 侧边导航栏
+      showCustomTitlebar: true, // 自定义标题栏
       saveWindowBounds: true,
       openDevTools: true,
     },

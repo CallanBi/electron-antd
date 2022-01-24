@@ -35,7 +35,6 @@ export class AppSidebar extends React.Component<unknown, State> {
         <div className="flex center app-sidebar-header">
           <img width="40" src={$tools.APP_ICON} />
         </div>
-
         <div className="flex column side-menu">{AppSideMenus.map(this.renderMenuItem)}</div>
       </div>
     )

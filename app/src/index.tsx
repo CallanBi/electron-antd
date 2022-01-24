@@ -15,6 +15,8 @@ function renderApp() {
 }
 
 ipcRenderer.on('dom-ready', (event, data) => {
+  console.log('%c data >>>', 'background: yellow; color: blue', data)
+
   createConfig = data
   renderApp()
 })

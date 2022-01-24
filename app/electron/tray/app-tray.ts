@@ -10,6 +10,11 @@ export interface AppIconConfig {
   icon?: string
 }
 
+/**
+ * 创建系统托盘图标和操作
+ * @param param0
+ * @returns
+ */
 export function creatAppTray({ menus = trayMenus, title = APP_NAME, icon }: AppIconConfig = {}): Tray {
   const iconPath =
     icon ??

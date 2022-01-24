@@ -44,7 +44,7 @@ export const DEFAULT_WINDOW_OPTIONS: BrowserWindowConstructorOptions = {
 }
 
 export const DEFAULT_CREATE_CONFIG: CreateConfig = {
-  showSidebar: false,
+  showSidebar: true,
   showCustomTitlebar: false,
   autoShow: true,
   delayToShow: 0,

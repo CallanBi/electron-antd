@@ -7,7 +7,6 @@ export const trayMenus: MenuItemConstructorOptions[] = [
       $tools.createWindow('Home')
     },
   },
-
   {
     label: 'Page Params',
     click: (): void => {
